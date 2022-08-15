@@ -13,6 +13,8 @@ Requisitos:
 
 
 -ESP32-CAM
+
+
 -FTDI TTL-USB
 
 
@@ -80,8 +82,8 @@ https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
 
 	25	allow_anonymous true
 	235	listener 1883 0.0.0.0
-
-    *Nota: Es importante que la palabra "true" este colocada para que al reiniciar el servicio pueda funcionar de manera correcta.*
+    
+*Nota: Es importante que la palabra "true" este colocada para que al reiniciar el servicio pueda funcionar de manera correcta.*        
 
 
 -Reiniciar el servicio:
