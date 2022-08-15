@@ -41,19 +41,19 @@ Descripción del funcionamiento:
 1. Clonar repositorio ESP32CAM_MQTT-Basic:
 
 
-https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
+     https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
  
 
 2. Modificar el archivo Readme.md
 
 
--Abrir VSCode
+       -Abrir VSCode
 
 
--Abrir el directorio del repositorio
+       -Abrir el directorio del repositorio
 
 
--Modificar el archivo
+       -Modificar el archivo
 
 3. Una vez que este modificado te dira que Crees un Fork del proyecto
 	por lo cual desde GitHub Desktop le daras "For my own purposes"
@@ -97,7 +97,7 @@ https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
 
 
      -Descomentar las siguientes lineas y en la linea 25 escribas "true" de la siguiente manera:
-     
+
 
      25 allow_anonymous true
      235 listener 1883 0.0.0.0
