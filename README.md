@@ -48,7 +48,11 @@ https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
 
 
 -Abrir VSCode
+
+
 -Abrir el directorio del repositorio
+
+
 -Modificar el archivo
 
 3. Una vez que este modificado te dira que Crees un Fork del proyecto
@@ -61,12 +65,23 @@ https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
 
 
 	-SSID y contraseña de red
+
+
 	-IP del broker local
+
 		ifconfig
+
+
 	-Tema donde se publica
+
 		-Al final de void loop ()
+
+
 	-Tema donde se suscribe
+
 		-En la funcion callback
+
+
 		-En la función reconnect
 	
 
@@ -75,13 +90,19 @@ https://github.com/codigo-iot/ESP32CAM_MQTT-Basic
 
 
 
--Dirigirse a /usr/share/doc/mosquitto/examples/mosquitto.conf.exampl y obtener el archivo de configuración de ejemplo
--Colocar el archivo mosquitto.conf en el directorio /etc/mosquitto/conf.d/
--Descomentar las siguientes lineas y en la linea 25 escribas "true" de la siguiente manera:
+     -Dirigirse a /usr/share/doc/mosquitto/examples/mosquitto.conf.exampl y obtener el archivo de configuración de ejemplo
 
 
-	25	allow_anonymous true
-	235	listener 1883 0.0.0.0
+     -Colocar el archivo mosquitto.conf en el directorio /etc/mosquitto/conf.d/
+
+
+     -Descomentar las siguientes lineas y en la linea 25 escribas "true" de la siguiente manera:
+     
+
+     25 allow_anonymous true
+     235 listener 1883 0.0.0.0
+
+
     
 *Nota: Es importante que la palabra "true" este colocada para que al reiniciar el servicio pueda funcionar de manera correcta.*        
 
