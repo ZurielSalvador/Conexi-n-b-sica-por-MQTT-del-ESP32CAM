@@ -1,5 +1,7 @@
 # Conexion-basica-por-MQTT-del-ESP32CAM
 En este repositorio se explica cómo hacer la conexión básica por MQTT del ESP32CAM
+
+
 Autor: Victor Zuriel Dominguez Salvador
 
 
